@@ -6,10 +6,10 @@ class TsvUtils < Formula
 
   if OS.mac?
     url "https://github.com/eBay/tsv-utils/releases/download/v#{version}/tsv-utils-v#{version}_osx-x86_64_ldc2.tar.gz"
-    sha256 "caa97c9bb838130ba824003ac991009819a681e6c824ed93b58ae2bec35252a6"
+    sha256 "22bf77c6475570640c04cc8cd9b2e662499c5512cc35043cb4e3ddb511d52279"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/eBay/tsv-utils/releases/download/v#{version}/tsv-utils-v#{version}_linux-x86_64_ldc2.tar.gz"
+      url "https://github.com/eBay/tsv-utils/releases/download/v2.2.0/tsv-utils-v2.2.0_linux-x86_64_ldc2.tar.gz"
       sha256 "f8b1132521ceaa566fee75f4b75a1e0a0ef654fc8f6212fb11d5ec65d427e412"
     end
   end
